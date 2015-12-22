@@ -1,0 +1,130 @@
+(ExpressProject ""
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (File ".\element-dvt.dsn"
+      (Type "Schematic Design")
+      (DisplayName ".\element-dvt.DSN"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (NoModify)
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "dvt")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" "allegro\ELEMENT-DVT.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File "C:\__Data\Projects\Element\bom\element-dvt.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{Value}\t{Vendor}\t{Part Num}\t{Desc}")
+    (BOM_Header
+       "Item\tQuantity\tReference\tPart\tVendor\tPart Number\tDescription")
+    (BOM_Include_File "C:\__DATA\PROJECTS\ELEMENT\SCH\ELEMENT-DVT.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Outputs"
+    (File ".\dvt\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\dvt\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\dvt\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File "..\bom\element-dvt.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\element-dvt.dsn")
+      (Path "Design Resources" ".\element-dvt.dsn" "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources" ".\element-dvt.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 378 0 685"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 50 1573 50 752")
+        (Scroll "-71 0")
+        (Zoom "66")
+        (Occurrence "/"))
+      (Path "C:\__DATA\PROJECTS\ELEMENT\SCH\ELEMENT-DVT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "01 BLOCK DIAGRAM, TOC"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 75 1598 75 777")
+        (Scroll "-71 0")
+        (Zoom "66")
+        (Occurrence "/"))
+      (Path "C:\__DATA\PROJECTS\ELEMENT\SCH\ELEMENT-DVT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "02 SOC_CIRCUIT"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 100 1623 100 802")
+        (Scroll "0 79")
+        (Zoom "73")
+        (Occurrence "/"))
+      (Path "C:\__DATA\PROJECTS\ELEMENT\SCH\ELEMENT-DVT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "03 USB OTG, DONGLE LINK"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 1648 125 827")
+        (Scroll "-20 0")
+        (Zoom "71")
+        (Occurrence "/"))
+      (Path "C:\__DATA\PROJECTS\ELEMENT\SCH\ELEMENT-DVT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "05 FLEX CONN1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 150 1673 150 852")
+        (Scroll "-61 0")
+        (Zoom "67")
+        (Occurrence "/"))
+      (Path "C:\__DATA\PROJECTS\ELEMENT\SCH\ELEMENT-DVT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "06 FLEX CONN2"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 175 1698 175 877")
+        (Scroll "-244 -3")
+        (Zoom "67")
+        (Occurrence "/"))
+      (Path "C:\__DATA\PROJECTS\ELEMENT\SCH\ELEMENT-DVT.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "99 REVISION HISTORY")))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "kzaw")
+  (PartMRUSelector))
