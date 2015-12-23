@@ -1,7 +1,7 @@
 # Kinoma Element
 This repository contains open source hardware resources for Kinoma Element.
 
-The application framework software for Kinoma Element is in the kinomajs repository.
+The application framework software for Kinoma Element is in the [kinomajs](https://github.com/Kinoma/kinomajs) repository .
 
 Including:
 
